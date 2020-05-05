@@ -5,11 +5,10 @@ public class Ball {
 
     double v = (double) v0 * 1000 / 3600;
     double time = 0.0;
-    boolean condition = true;
     double result = 0;
     int count = 0;
 
-    while (condition){
+    while (true){
       double h = getH(v, time);
       time += 0.1;
 
@@ -19,7 +18,6 @@ public class Ball {
       count += 1;
       result = h;
     }
-    return (int)result;
   }
 
   static double getH(double v, double time){
