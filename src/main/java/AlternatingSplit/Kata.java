@@ -8,8 +8,7 @@ public class Kata {
       return text;
     }
 
-    String result = "";
-    result += text;
+    String result = text;
 
     for (int i = 1; i <= n; i++) {
 
@@ -33,8 +32,7 @@ public class Kata {
       return encryptedText;
     }
 
-    String result = "";
-    result += encryptedText;
+    String result = encryptedText;
 
     for (int i = 1; i <= n; i++) {
 
