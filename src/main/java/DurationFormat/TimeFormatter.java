@@ -1,6 +1,7 @@
 package DurationFormat;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TimeFormatter {
   public static String formatDuration(int seconds) {
@@ -26,18 +27,8 @@ public class TimeFormatter {
       }
     }
 
-    String result = "";
-    for(int i = 0; i < list.size();i ++){
-      if(i == 0){
-        result += list.get(i);
-      }else if(i == list.size() - 1 && list.size() > 1){
-        result += " and " + list.get(i);
-      }else {
-        result += ", " + list.get(i);
-      }
-
-    }
-    return result;
+    return list.stream().collect(Collectors.joining(", "))
+            .replaceAll(", (?!.+,)", " and ");
 
   }
 
@@ -49,3 +40,5 @@ public class TimeFormatter {
     }
   }
 }
+
+
