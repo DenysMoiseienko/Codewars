@@ -1,30 +1,64 @@
 package SmallerNumberWithSameTheDigits;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.stream.IntStream;
+
 public class Kata {
 
     public static long nextSmaller(long n) {
 
-        String text = Long.toString(n);
-        int index = - 1;
-        long result;
+        int[] arr = Long.toString(n).chars().map(c -> c - '0').toArray();
+        int pivot = - 1;
 
-        for (int i = text.length() - 1; i > 0; i--){
-            if(text.charAt(i) < text.charAt(i - 1)){
-                index = i - 1;
+
+        for (int i = arr.length - 1; i > 0; i--){
+            if(arr[i] < arr[i - 1]){
+                pivot = i - 1;
                 break;
             }
         }
-        if (index == -1) return index;
+        if (pivot == -1) return - 1;
 
-        String rightPart = text.substring(0, index);
-        String leftPart = text.substring(index).chars().sorted().
-                collect(StringBuilder :: new, StringBuilder::appendCodePoint,
-                        StringBuilder :: append).toString();
+        int pivotValue = arr[pivot];
+        int mm = 0;
+        int mmi = 0;
 
-        result = Long.parseLong(rightPart + leftPart);
+        for (int i = pivot; i < arr.length; i++){
+            if (arr[i] < pivotValue){
+                if (mm == 0 || arr[i] > mm){
+                    mm = arr[i];
+                    mmi = i;
+                }
+            }
+        }
+        if (mmi == 0) return -1;
 
-        if (result == n) return -1;
+        swap(arr, pivot, mmi);
 
-        return result;
+        if(arr[0] == 0) return -1;
+
+        int[] firstHalf = Arrays.copyOfRange(arr, 0 , pivot + 1);
+        int[] secondHalf = Arrays.copyOfRange(arr, pivot + 1, arr.length);
+
+        secondHalf = IntStream.of(secondHalf).boxed().sorted(Comparator.comparing(
+                i -> i == 0 ? 1 : 0)).sorted(Collections.reverseOrder())
+                .mapToInt(Integer::intValue).toArray();
+
+        int[] both = IntStream.concat(IntStream.of(firstHalf), IntStream.of(secondHalf)).toArray();
+
+        StringBuilder result = new StringBuilder();
+
+        for (int digit : both){
+           result.append(digit);
+        }
+
+        return Long.parseLong(result.toString());
+    }
+    static void swap(int[] array, int ind1, int ind2) {
+        int tmp = array[ind1];
+        array[ind1] = array[ind2];
+        array[ind2] = tmp;
     }
 }
