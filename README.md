@@ -11,6 +11,7 @@
 - [Sort The Odd](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/SortTheOdd)
 - [Human Readable Duration Format](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/DurationFormat)
 - [Smaller Number With Same The Digits](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/SmallerNumberWithSameTheDigits)
+- [Pagination Helper](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/PaginationHelper)
 
 ----
 
