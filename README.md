@@ -16,6 +16,7 @@
 - [Don't Give Me Five!](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/DontGiveMeFive)
 - [Breaking Chocolate Problem](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/BreakingChocolateProblem)
 - [Valid Braces](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ValidBraces)
+- [Find The Parity Outlier](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/FindTheParityOutlier)
 
 ----
 
