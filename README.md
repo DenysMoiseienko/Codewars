@@ -13,6 +13,7 @@
 - [Smaller Number With Same The Digits](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/SmallerNumberWithSameTheDigits)
 - [Pagination Helper](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/PaginationHelper)
 - [Printer Errors](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/PrinterErrors)
+- [Don't Give Me Five!](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/DontGiveMeFive)
 
 ----
 
