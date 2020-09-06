@@ -41,9 +41,10 @@ class SimpleQueue<T> {
   public T remove() {
     return list.remove(0);
   }
-  
+
   public boolean isEmpty() {
     return list.isEmpty();
   }
+
 }
 
