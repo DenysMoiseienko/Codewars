@@ -21,5 +21,4 @@
 
 ----
 
-https://www.codewars.com/users/DenysMoiseienko/badges/large
-
+![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
