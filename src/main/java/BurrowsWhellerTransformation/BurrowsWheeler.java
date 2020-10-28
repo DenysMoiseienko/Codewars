@@ -26,12 +26,12 @@ public class BurrowsWheeler {
   }
 
   public static String decode(String s, int n) {
-    String[] list = s.split("");
-    Arrays.sort(list);
-
     if (s.length() == 0) {
       return "";
     }
+
+    String[] list = s.split("");
+    Arrays.sort(list);
 
     for (int j = 0; j < list.length - 1; j++){
       for (int i = 0; i < list.length; i++) {
@@ -39,7 +39,6 @@ public class BurrowsWheeler {
       }
       Arrays.sort(list);
     }
-    System.out.println(list[n]);
     return list[n];
   }
 }
