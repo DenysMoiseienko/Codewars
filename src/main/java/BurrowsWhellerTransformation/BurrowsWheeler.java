@@ -29,15 +29,18 @@ public class BurrowsWheeler {
     String[] list = s.split("");
     Arrays.sort(list);
 
-    for (int j = 0; j < list.length; j++){
+    if (s.length() == 0) {
+      return "";
+    }
+
+    for (int j = 0; j < list.length - 1; j++){
       for (int i = 0; i < list.length; i++) {
         list[i] = s.charAt(i) + list[i];
-
-        System.out.println(list[i]);
       }
       Arrays.sort(list);
     }
-    return "";
+    System.out.println(list[n]);
+    return list[n];
   }
 }
 
