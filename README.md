@@ -20,6 +20,7 @@
 - [Sort Binary Tree By Levels](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/SortBinaryTreeByLevels)
 - [Range Extraction](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/RangeExtraction)
 - [Burrows-Wheeler Transformation](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/BurrowsWhellerTransformation)
+- [ParseInt() Reloader](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ParseIntReloaded)
 ----
 
 ![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
