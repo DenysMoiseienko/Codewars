@@ -2,7 +2,6 @@ package BurrowsWhellerTransformation;
 
 import java.util.Arrays;
 
-
 public class BurrowsWheeler {
 
   public static BWT encode(String s) {
@@ -20,15 +19,12 @@ public class BurrowsWheeler {
     for (int i = 0; i < list.length; ++i){
       builder.append(list[i].charAt(list[i].length() - 1));
       if (list[i].equals(s)) counter = i;
-
     }
     return new BWT(builder.toString(), counter);
   }
 
   public static String decode(String s, int n) {
-    if (s.length() == 0) {
-      return "";
-    }
+    if (s.length() == 0) return "";
 
     String[] list = s.split("");
     Arrays.sort(list);
@@ -42,9 +38,3 @@ public class BurrowsWheeler {
     return list[n];
   }
 }
-
-
-
-
-
-
