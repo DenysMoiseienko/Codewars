@@ -21,6 +21,7 @@
 - [Range Extraction](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/RangeExtraction)
 - [Burrows-Wheeler Transformation](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/BurrowsWhellerTransformation)
 - [ParseInt() Reloader](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ParseIntReloaded)
+- [Primes Streaming PG13](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/PrimeStreamingPG13)
 ----
 
 ![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
