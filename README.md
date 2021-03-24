@@ -22,6 +22,8 @@
 - [Burrows-Wheeler Transformation](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/BurrowsWhellerTransformation)
 - [ParseInt() Reloader](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ParseIntReloaded)
 - [Primes Streaming PG13](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/PrimeStreamingPG13)
+- [Consective Strings](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ConsectiveStrings)
+- [Escaping The Matrix](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/EscapingTheMatrix)
 ----
 
 ![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
