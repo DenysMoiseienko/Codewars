@@ -24,6 +24,7 @@
 - [Primes Streaming PG13](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/PrimeStreamingPG13)
 - [Consective Strings](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ConsectiveStrings)
 - [Escaping The Matrix](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/EscapingTheMatrix)
+- [Escaping The Matrix](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ComplementaryDNA)
 ----
 
 ![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
