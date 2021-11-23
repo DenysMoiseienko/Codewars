@@ -1,8 +1,6 @@
 package GetTheMiddleCharacter;
 
-
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class KataTest {
@@ -18,5 +16,4 @@ class KataTest {
     assertEquals("t", Kata.getMiddle("testing"));
     assertEquals("A", Kata.getMiddle("A"));
   }
-
 }

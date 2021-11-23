@@ -1,4 +1,4 @@
-package deleteOccurrences;
+package DeleteOccurrences;
 
 import java.util.HashMap;
 import java.util.Map;

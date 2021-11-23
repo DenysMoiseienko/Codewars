@@ -26,6 +26,7 @@
 - [Escaping The Matrix](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/EscapingTheMatrix)
 - [Complementary DNA](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ComplementaryDNA)
 - [Get The Middle Character](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/GetTheMiddleCharacter)
+- [Square Every Digit](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/SquareEveryDigit)
 ----
 
 ![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
