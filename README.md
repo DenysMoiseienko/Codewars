@@ -30,6 +30,7 @@
 - [Take A Ten Minute Walk](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TakeATenMinuteWalk)
 - [Two Sum](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TwoSum)
 - [The Lift](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TheLift)
+- [Rail Fence Cipher: Encoding and Decoding](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ReilFenceCipher)
 ----
 
 ![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
