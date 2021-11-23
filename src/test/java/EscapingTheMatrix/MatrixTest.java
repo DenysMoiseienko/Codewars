@@ -1,11 +1,12 @@
 package EscapingTheMatrix;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class MatrixTest {
 
-  @Test(expected = Neo.class)
+  @Test
   public void test() {
-    Matrix.enter();
+    assertThrows(Neo.class, Matrix::enter);
   }
 }

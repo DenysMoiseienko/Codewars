@@ -1,9 +1,10 @@
 package SmallerNumberWithSameTheDigits;
 
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class KataTest {
+
     @Test
     public void basicTests() {
           assertEquals(12, Kata.nextSmaller(21));
@@ -14,6 +15,5 @@ public class KataTest {
           assertEquals(414, Kata.nextSmaller(441));
           assertEquals(123456789, Kata.nextSmaller(123456798));
           assertEquals(351, Kata.nextSmaller(513));
-
     }
 }

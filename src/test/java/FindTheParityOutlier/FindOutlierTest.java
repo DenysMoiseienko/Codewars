@@ -1,10 +1,10 @@
 package FindTheParityOutlier;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FindOutlierTest {
+
   @Test
   public void testExample() {
     int[] exampleTest1 = {2, 6, 8, -10, 3};

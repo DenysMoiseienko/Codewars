@@ -1,15 +1,12 @@
 package deleteOccurrences;
 
-import static org.junit.Assert.assertArrayEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Test;
-
-/**
- * @author Marko Bekhta
- */
 public class EnoughIsEnoughTest {
+
   @Test
-  public void deleteNth() throws Exception {
+  public void deleteNth() {
     assertArrayEquals(
             new int[] { 20, 37, 21 },
             EnoughIsEnough.deleteNth( new int[] { 20, 37, 20, 21 }, 1 )
@@ -31,7 +28,5 @@ public class EnoughIsEnoughTest {
             new int[] { },
             EnoughIsEnough.deleteNth( new int[] { }, 5 )
     );
-
   }
-
 }

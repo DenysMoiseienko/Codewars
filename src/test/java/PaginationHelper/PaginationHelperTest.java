@@ -1,14 +1,15 @@
 package PaginationHelper;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
-
+import org.junit.jupiter.api.Test;
 import java.util.Arrays;
+import java.util.Collections;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PaginationHelperTest {
 
     PaginationHelper<Character> helper = new PaginationHelper(Arrays.asList('a', 'b', 'c', 'd', 'e', 'f'), 4);
-    PaginationHelper<Character> emptyList = new PaginationHelper(Arrays.asList(), 4);
+    PaginationHelper<Character> emptyList = new PaginationHelper(Collections.emptyList(), 4);
     PaginationHelper<Character> arr = new PaginationHelper(Arrays.asList('a', 'b', 'c', 'd', 'e' ), 2);
 
     @Test
@@ -53,5 +54,3 @@ public class PaginationHelperTest {
         assertEquals(emptyList.pageIndex(2), -1);
     }
 }
-
-

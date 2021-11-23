@@ -1,14 +1,14 @@
 package SortBinaryTreeByLevels;
 
 import java.util.*;
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SolutionTest {
 
   @Test
   public void nullTest() {
-    assertEquals(Arrays.asList(), Kata.treeByLevels(null));
+    assertEquals(Collections.emptyList(), Kata.treeByLevels(null));
   }
 
   @Test
@@ -17,8 +17,6 @@ public class SolutionTest {
             new Node(
                 new Node(null, new Node(null, null, 4), 2),
                 new Node(new Node(null, null, 5), new Node(null, null, 6), 3),
-                    1)
-    )
-    );
+                    1)));
   }
 }

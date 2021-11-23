@@ -1,9 +1,10 @@
 package DurationFormat;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TimeFormatterTest {
+
   @Test
   public void exampleTests() {
       assertEquals("now", TimeFormatter.formatDuration(0));
@@ -15,4 +16,3 @@ public class TimeFormatterTest {
       assertEquals("1 hour, 1 minute and 2 seconds", TimeFormatter.formatDuration(3662));
   }
 }
-

@@ -1,7 +1,7 @@
 package PrimeStreamingPG13;
 
-import org.junit.Test;
-import static org.junit.Assert.assertArrayEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class PrimesTest {
 
@@ -29,5 +29,4 @@ public class PrimesTest {
     int[] found = Primes.stream().skip(skip).limit(limit).toArray();
     assertArrayEquals(expect, found);
   }
-
 }

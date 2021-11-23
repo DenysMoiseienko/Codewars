@@ -1,8 +1,7 @@
 package ValidBraces;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class BraceCheckerTest {
 
@@ -10,22 +9,21 @@ public class BraceCheckerTest {
 
   @Test
   public void testValid() {
-    assertEquals(true, checker.isValid("()"));
+    assertTrue(checker.isValid("()"));
   }
 
   @Test
   public void testValid1() {
-    assertEquals(true, checker.isValid("(){}"));
+    assertTrue(checker.isValid("(){}"));
   }
 
   @Test
   public void testInvalid() {
-    assertEquals(false, checker.isValid("[(])"));
+    assertFalse(checker.isValid("[(])"));
   }
 
   @Test
   public void testInvalid2() {
-    assertEquals(false, checker.isValid(")"));
+    assertFalse(checker.isValid(")"));
   }
-
 }

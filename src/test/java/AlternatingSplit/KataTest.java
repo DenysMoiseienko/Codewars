@@ -1,7 +1,8 @@
 package AlternatingSplit;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 public class KataTest {
 
@@ -34,8 +35,7 @@ public class KataTest {
     // assertEquals("expected", "actual");
     assertEquals("", Kata.encrypt("", 0));
     assertEquals("", Kata.decrypt("", 0));
-    assertEquals(null, Kata.encrypt(null, 0));
-    assertEquals(null, Kata.decrypt(null, 0));
+    assertNull(Kata.encrypt(null, 0));
+    assertNull(Kata.decrypt(null, 0));
   }
-
 }
