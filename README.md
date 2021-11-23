@@ -25,6 +25,7 @@
 - [Consective Strings](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ConsectiveStrings)
 - [Escaping The Matrix](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/EscapingTheMatrix)
 - [Complementary DNA](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ComplementaryDNA)
+- [Get The Middle Character](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/GetTheMiddleCharacter)
 ----
 
 ![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
