@@ -29,6 +29,7 @@
 - [Square Every Digit](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/SquareEveryDigit)
 - [Take A Ten Minute Walk](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TakeATenMinuteWalk)
 - [Two Sum](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TwoSum)
+- [The Lift](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TheLift)
 ----
 
 ![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
