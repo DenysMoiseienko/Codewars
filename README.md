@@ -31,7 +31,7 @@
 - [Two Sum](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TwoSum)
 - [The Lift](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TheLift)
 - [Rail Fence Cipher: Encoding And Decoding](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ReilFenceCipher)
-- [Count IP Addresses](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/CountIpAddresses)
+- [Count IP Addresses](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/CountIPAddresses)
 - [Fabergé Easter Eggs Crush Test](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/FabergeEasterEggsCrushTest)
 ----
 
