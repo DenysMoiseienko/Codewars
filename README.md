@@ -30,7 +30,9 @@
 - [Take A Ten Minute Walk](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TakeATenMinuteWalk)
 - [Two Sum](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TwoSum)
 - [The Lift](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TheLift)
-- [Rail Fence Cipher: Encoding and Decoding](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ReilFenceCipher)
+- [Rail Fence Cipher: Encoding And Decoding](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ReilFenceCipher)
+- [Count IP Addresses](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/CountIpAddresses)
+- [Fabergé Easter Eggs Crush Test](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/FabergeEasterEggsCrushTest)
 ----
 
 ![alt text](https://www.codewars.com/users/DenysMoiseienko/badges/large)
