@@ -7,7 +7,7 @@
 - [Alternating Split](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/AlternatingSplit)
 - [Ball Upwards](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/BallUpwards)
 - [Your Order, Please!](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/YourOrderPlease)
-- [Delete Occurrences](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/deleteOccurrences)
+- [Delete Occurrences](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/DeleteOccurrences)
 - [Sort The Odd](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/SortTheOdd)
 - [Human Readable Duration Format](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/DurationFormat)
 - [Smaller Number With Same The Digits](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/SmallerNumberWithSameTheDigits)
@@ -30,7 +30,7 @@
 - [Take A Ten Minute Walk](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TakeATenMinuteWalk)
 - [Two Sum](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TwoSum)
 - [The Lift](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/TheLift)
-- [Rail Fence Cipher: Encoding And Decoding](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/ReilFenceCipher)
+- [Rail Fence Cipher: Encoding And Decoding](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/RailFenceCipher)
 - [Count IP Addresses](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/CountIPAddresses)
 - [Fabergé Easter Eggs Crush Test](https://github.com/DenysMoiseienko/Codewars/tree/master/src/main/java/FabergeEasterEggsCrushTest)
 ----
